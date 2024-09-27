@@ -1,0 +1,116 @@
+/* Estilos Globais */
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #f0e6d6;
+    color: #4c3b2a;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    color: #4c3b2a;
+    text-shadow: 1px 1px 1px #a67c52;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fdf6e3;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #a67c52;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #a67c52;
+    border-radius: 4px;
+    background-color: #fff8e7;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    background-color: #8b5e34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #000;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #704822;
+}
+
+#vehicleList {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff8e7;
+    padding: 10px;
+    border: 2px solid #a67c52;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #b03a2e;
+    transition: color 0.3s ease;
+}
+
+li button:hover {
+    color: #ff6347;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    input, select {
+        font-size: 14px;
+    }
+}
